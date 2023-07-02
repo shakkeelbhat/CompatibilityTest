@@ -8,3 +8,6 @@ query_content(content) takes the content returned from extract(filename) and uti
 
 It utilizes OPENAI_API and Google search api  SERPAPI_API to make the query.
 
+python automate.py query filename
+
+python automate.py avengers Example.txt
