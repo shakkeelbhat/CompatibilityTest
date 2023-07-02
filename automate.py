@@ -8,8 +8,9 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "7d846817487992ba8cd52a748aa4719e01489dcd2e3d474b1dbaf6b730a244f4"
+#add openai api key and serpapi api key
+os.environ["OPENAI_API_KEY"] = ""
+os.environ["SERPAPI_API_KEY"] = ""
 
 def extract(filename):
     
